@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody>();
         count = 0;
-        SetCountText();
         winText.text = "";
+        SetCountText();
     }
 
     // performed before every frame calculation
